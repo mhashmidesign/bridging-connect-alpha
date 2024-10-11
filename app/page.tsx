@@ -1,9 +1,9 @@
-// app/login/page.tsx
+// app/page.tsx
 "use client"; // Add this line to indicate that this is a client component
 
 import React, { useState } from 'react';
 
-const Login = () => {
+const HomePage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -70,4 +70,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default HomePage;
