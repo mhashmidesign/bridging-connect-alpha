@@ -1,4 +1,6 @@
 // app/login/page.tsx
+"use client"; // Add this line to indicate that this is a client component
+
 import React, { useState } from 'react';
 
 const Login = () => {
