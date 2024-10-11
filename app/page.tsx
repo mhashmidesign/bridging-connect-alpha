@@ -1,5 +1,5 @@
 // app/page.tsx
-"use client"; // Add this line to indicate that this is a client component
+"use client"; // Indicates that this component will use client-side rendering
 
 import React, { useState } from 'react';
 
